@@ -1,8 +1,8 @@
-// if ("when number divisble remainder is 1 ) {
-//     console.log("it is even number")
-// } else {when number is divided remainder is  not 1}
-// console.log("it is odd number")
-// else(when mutiple of three is divided remiander is 1 )
-// console.log(it is a even number)
-// else(divide multiple of three if remainder is not 1)
-// console.log(it is a odd number)  
+var num = 10
+if(n % 0){
+    console.log("number is even")
+}else if (n % 1){
+    ("number is odd")
+}
+
+//what is wrong in this code
