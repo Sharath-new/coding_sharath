@@ -39,6 +39,7 @@ ex: var num = 10;
 3. Divistion (/)
 4. Multiplication (*)
 5. Modulas (%) hint: returns the reminder
+6. Power (**) ex: (2**3)
 ```
 # Camparision operators
 ```
@@ -99,3 +100,5 @@ if (condition_1) {
 
 if the condition_1 is true then only the code inside the if block will be executed orther wise it will check for "else if" condition if "else if" conditon is true then the code inside the "else if" block will be executed other wise it will go for else block and execute the code
 ```
+
+# END
