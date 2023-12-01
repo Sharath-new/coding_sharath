@@ -8,11 +8,18 @@
 
 function checkPrime(num) {
   var i = 1;
-  while (num % i == 0 ) {
-    if(i<num==0)
-     i++
+  var numberOfFactor = 0;
+  while (i <= num) {
+    if (num % i == 0) {
+      numberOfFactor++;
+    }
+    i++;
   }
-  console.log("given the it is prime number" );
+  if (numberOfFactor == 2) {
+    console.log("Given number is prime");
+  } else {
+    console.log("Given number is not prime");
+  }
 }
 
-checkPrime(13);
+checkPrime(2);
