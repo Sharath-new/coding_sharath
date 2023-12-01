@@ -5,13 +5,13 @@
 
 function calculateSumOfN(num) {
   var i = 1;
-  var count= 0;
+  var count = 0;
   while (i <= num) {
     count = i + count;
 
     i++;
   }
-  console.log("given sum is num",+count);
+  console.log("given sum is num", count);
 }
 
 calculateSumOfN(10);

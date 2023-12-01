@@ -7,7 +7,12 @@
 // print given number is not prime
 
 function checkPrime(num) {
-    
+  var i = 1;
+  while (num % i == 0 ) {
+    if(i<num==0)
+     i++
+  }
+  console.log("given the it is prime number" );
 }
 
 checkPrime(13);

@@ -8,11 +8,11 @@ function printInSingleLine(n) {
   var bag = "";
 
   while (i <= n) {
-    bag = bag + i + " ";
+    bag = bag + i + "";
+
     i++;
   }
-
-  console.log(bag);
+  console.log("givrn number in single line", bag);
 }
 
 printInSingleLine(5);
