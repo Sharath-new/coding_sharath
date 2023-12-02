@@ -25,3 +25,9 @@ Polymorphism is a term used in Python to refer to an object's ability to take on
 2. Operator overloading
 3. Method overloading
 4. Method overriding
+
+### 3. Abstraction
+
+```
+An abstract class in Python is a class that is marked as abstract using the ABC (Abstract Base Class) module or the @abstractmethod decorator. An abstract class cannot be instantiated directly and is meant to be subclassed by other classes. It may define abstract methods that must be implemented by its subclasses. Abstract classes provide a way to define a common interface for a group of related classes.
+```
