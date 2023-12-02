@@ -5,11 +5,14 @@
 
 function printInSingleLine(n) {
   var i = 1;
+  var bag = "";
 
   while (i <= n) {
-    console.log(i);
+    bag = bag + i + "";
+
     i++;
   }
+  console.log("givrn number in single line", bag);
 }
 
 printInSingleLine(5);

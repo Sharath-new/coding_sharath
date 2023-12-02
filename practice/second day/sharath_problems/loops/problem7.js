@@ -6,11 +6,10 @@
 function printReverseOfNumber(num) {
   var i = num;
 
-    while (i >= 1) {
-       console.log(i);
-       i--;
-     }
-   }
-  
+  while (i >= 1) {
+    console.log(i);
+    i--;
+  }
+}
 
 printReverseOfNumber(5);
